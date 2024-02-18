@@ -1,0 +1,93 @@
+.black-background{
+    background-color: black;
+}
+.title{
+    margin-bottom: 50px;
+    color: white;
+}
+.wrong{
+    background-color:crimson;
+}
+.correct{
+    background-color: lime;
+}
+.turnAllBlack{
+    color: black;
+}
+.center{
+    text-align: center;
+}
+.bruno-ace-regular {
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.question{
+    font-size: xx-large;
+    color: white;
+}
+input{
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+}
+.input-wrong{
+    color: crimson;
+    background-color: black;
+}
+.input-correct{
+    background-color: white;
+}
+  .check {
+    margin-top: 10px;
+    color: #fff;
+    width: 110px;
+    height: 50px;
+    color: black;
+    font-weight: 500;
+    background: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    background-color: blueviolet;
+    box-shadow: 0 0 5px #ef97e8;
+    font-size: large;
+  }
+  .check:hover {
+     box-shadow: 0 0 10px #ef97e8, 0 0 20px #ef97e8, 0 0 20px #fff inset;
+  }
+  .check-disappear{
+    display: none;
+  }
+  .displayWordWrong{
+    font-size: xx-large;
+  }
+  .displayWordCorrect{
+    font-size: xx-large;
+    color: white;
+  }
+  .lblDisplayCorrect{
+    font-size: medium;
+  }
+  .next{
+
+  }
+  .next-wrong{
+    color: black;
+    border-color: black;
+    border-radius: 15px;
+    background-color: transparent;
+    background: none;
+    font-size: x-large;
+  }
+  .next-correct{
+    color: white;
+    border-color: white;
+    border-radius: 15px;
+    background-color: transparent;
+    background: none;
+    font-size: x-large;
+  }
